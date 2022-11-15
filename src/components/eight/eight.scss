@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(36, 58, 66);
+}
+.eight-box {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  .td-official-web-box {
+    // position: absolute;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+  }
+  .page {
+    position: relative;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+    color: rgb(241, 237, 237);
+    transform: translateX(-60%);
+
+    h1 {
+      padding: 60px;
+      font-size: 40px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+  }
+  #page1 {
+    transform: translateX(0);
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+}
